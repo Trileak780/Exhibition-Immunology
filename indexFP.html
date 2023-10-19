@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>The Immune System</title>
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+        <!-- These are google fonts, not google icons.-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="styleA.css">
+        <script src="mainFP.js"></script>
+    </head>
+    <body class="ur body is">
+        <center>
+            <h1><u>Your</u> amazing immune system</h1>
+            <p class="col-lg-6 col-md-8 col-sm-10 col-xs-16">You wake up and feel a tickle in your throat. Your head hurts. You're mildly annoyed as you get ready for school. Meanwhile, just below your skin, an epic war is being fought. Millions are dying for you to be able to complain as you head out of door. <br><br>But most of us never really stop to ask: What even is our immune system? <br><br> Second only to the human brain in its complexity, it is one of the oldest and most critical facets of life on Earth. Without it, you would die within days. There is a constant battle of staggering scale raging within us, full of stories of invasion, strategy, defeat, and noble self-sacrifice. In fact, in the time you've been reading this, your immune system has probably identified and eradicated a young cancer cell that started to grow in your body.</p>
+            <label>Choose a intricate part to learn about:</label>
+            <select name="cells" id="cells"> 
+                <option value="b_cells" style="background-color: rgb(179, 0, 255);">A B Cell</option> 
+                <option value="basophil" style="background-color: rgb(49, 90, 255);">A Basophil</option> 
+                <option value="conpliment" style="background-color: rgb(255, 255, 255);">Compliment Protiens</option>
+                <option value="dendritic" style="background-color: rgb(33, 120, 207);">A Dendritic Cell</option> 
+                <option value="eosinophil" style="background-color: rgb(135, 38, 191)">A Eosinophil</option> 
+                <option value="macrophage" style="background-color: rgb(255, 221, 0);">A Macrophage</option> 
+                <option value="mast" style="background-color: rgb(21, 177, 161);">A Mast Cell</option>
+                <option value="monocyte" style="background-color: rgb(79, 43, 104);">A Monocyte</option> 
+                <option value="naturalKC" style="background-color: #27ae60;">A Natural Killer Cell</option>
+                <option value="neutrophil" style="background-color: orange;">A Neutrophil</option>
+                <option value="t_cells" style="background-color: rgb(0, 132, 255);">A T cell</option>
+                <option value="naturalKC" style="background-color: #000000; color: aliceblue;">❌NO CELL❌</option>
+            </select>
+            <br>
+            <!--<label>Choose a scenario and see what does your immune system do:</label>
+            <select name="scenario" id="scenario"> 
+                <option value="naturalKC" style="background-color: rgb(60, 12, 13); color: aliceblue;">The Cut</option>
+                <option value="neutrophil" style="background-color: rgb(34, 147, 30); color: aliceblue;">The Cough</option> 
+                <option value="T" style="background-color: rgb(0, 0, 0); color: aliceblue;">❌NO SCENARIO❌</option> 
+            </select>
+        -->
+            <br>
+            <button type="button" id="second" class="btn" onclick="sendsp()" style="background-color: rgb(240, 248, 255);color:rgb(33, 15, 54);">Let's go!</button>
+            <button type="button" id="index" class="btn" onclick="sendip()" style="background-color: rgb(240, 248, 255);color:rgb(33, 15, 54);">Can't understand anything? Why not go to the glossary?</button>
+        </center>
+    </body>
+</html>

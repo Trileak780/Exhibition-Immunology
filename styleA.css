@@ -1,0 +1,11 @@
+.ur {
+    font-family: 'Ubuntu', sans-serif
+}
+.body {
+    background-color: rgb(33, 15, 54);
+    color: rgb(240, 248, 255);
+}
+#output {
+    background-color:rgb(240, 248, 255);
+    color: rgb(33, 15, 54);
+}
